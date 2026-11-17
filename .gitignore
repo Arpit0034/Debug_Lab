@@ -1,0 +1,23 @@
+# dependencies & build output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# secrets / local config
+.env
+.env.*
+!.env.example
+
+# deployment
+.vercel/
+
+# editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# logs & backups
+*.log
+*.bak
+*-bak
+*.zip
